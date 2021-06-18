@@ -19,7 +19,6 @@ Currently OpenCanary supports faking the following services natively:
 * `mssql` - an MS SQL server that alerts on login attempts
 * `mysql` - a MYSQL server that alerts on login attempts
 * `telnet` - a Telnet server that alerts on login attempts
-* `snmp` - an SNMP server which alerts on oid requests
 * `sip` - a SIP server which alerts on sip requests
 * `vnc` - a VNC server which alerts on login attempts
 * `redis` - a Redis server which alerts on actions
@@ -204,8 +203,6 @@ you will receive a json formatted config file at `/etc/opencanary/opencanary.con
         "rdp.port": 3389,
         "sip.enabled": false,
         "sip.port": 5060,
-        "snmp.enabled": false,
-        "snmp.port": 161,
         "ntp.enabled": false,
         "ntp.port": "123",
         "tftp.enabled": false,

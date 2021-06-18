@@ -55,8 +55,6 @@
     "rdp.port": 3389,
     "sip.enabled": false,
     "sip.port": 5060,
-    "snmp.enabled": false,
-    "snmp.port": 161,
     "ntp.enabled": false,
     "ntp.port": 123,
     "tftp.enabled": false,

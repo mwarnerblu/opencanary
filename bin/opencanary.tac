@@ -39,14 +39,6 @@ except ImportError:
     pass
 
 
-try:
-    #Module need Scapy, but the rest of OpenCanary doesn't
-    from opencanary.modules.snmp import CanarySNMP
-    MODULES.append(CanarySNMP)
-except ImportError:
-    print("Can't import SNMP. Please ensure you have Scapy installed.")
-    pass
-
 # NB: imports below depend on inotify, only available on linux
 import sys
 if sys.platform.startswith("linux"):

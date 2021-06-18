@@ -50,7 +50,6 @@ Alerting
    :maxdepth: 2
 
    alerts/email
-   alerts/hpfeeds
 
 
 Upgrading

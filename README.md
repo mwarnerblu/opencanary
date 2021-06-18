@@ -18,7 +18,6 @@ Prerequisites
 ----------------
 
 * Python 2.7, 3.7 (Recommended python 3.7+)
-* [Optional] SNMP requires the python library scapy
 * ~[Optional] RDP requires the python library rdpy~ (this module has been removed; we are currently determing a way forward with this.)
 * [Optional] Samba module needs a working installation of samba
 
